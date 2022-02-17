@@ -14,10 +14,10 @@ published: true
   {% for project in site.projects %}
 
   {% if project.redirect %}
-  <div class="Sales Ignition">
+  <div class="projectTile">
           <a href="{{ project.redirect }}" target="_blank">
           <span>
-              <h2>{{ project.title }}</h2>
+              <h2>{{ Sales Ignition }}</h2>
               <br/>
               <p>{{ project.description }}</p>
           </span>
@@ -26,10 +26,10 @@ published: true
 
   {% else %}
 
-  <div class="MTB Journals">
+  <div class="projectTile">
           <a href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">
           <span>
-              <h2>{{ project.title }}</h2>
+              <h2>{{ MTB Journals }}</h2>
               <br/>
               <p>{{ project.description }}</p>
           </span>
@@ -39,10 +39,10 @@ published: true
 		
   {% else %}
 
-  <div class="Lux Skin Oils">
+  <div class="projectTile">
           <a href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">
           <span>
-              <h2>{{ project.title }}</h2>
+              <h2>{{ Lux Skin Oils}}</h2>
               <br/>
               <p>{{ project.description }}</p>
           </span>
@@ -52,10 +52,10 @@ published: true
 
   {% else %}
 
-  <div class="Next Email Signature">
+  <div class="projectTile">
           <a href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">
           <span>
-              <h2>{{ project.title }}</h2>
+              <h2>{{ Next Email Signature}}</h2>
               <br/>
               <p>{{ project.description }}</p>
           </span>
