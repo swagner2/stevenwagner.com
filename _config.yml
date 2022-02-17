@@ -22,7 +22,7 @@ twitter: "twitter.com/tenacioussteven"
 linkedin: "https://www.linkedin.com/in/stevenjwagner/"
 github: "https://github.com/swagner2"
 instagram: "https://www.instagram.com/tenacioussteven/"
-orcid: "#"
+#orcid: "#"
 
 highlighter: rouge
 markdown: kramdown
