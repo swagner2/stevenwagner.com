@@ -17,11 +17,11 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-facebook: "#"
-twitter: "#"
-linkedin: "#"
-github: "#"
-researchgate: "#"
+facebook: "https://www.facebook.com/steven.wagner1"
+twitter: "twitter.com/tenacioussteven"
+linkedin: "https://www.linkedin.com/in/stevenjwagner/"
+github: "https://github.com/swagner2"
+instagram: "https://www.instagram.com/tenacioussteven/"
 orcid: "#"
 
 highlighter: rouge
