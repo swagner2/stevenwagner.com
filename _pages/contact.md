@@ -7,44 +7,14 @@ published: true
 
 
 
+<div id="my-reform"></div>
 
-<form method="POST" action="https://forms.reform.app/headless/nes/untitled-form-3/1vg59b/submissions">
-    <div>
-        <label for="9046a87f-80a3-4c77-87de-872ef3947a4c">What's your name?</label>
-        <input 
-            type="text"
-            id="9046a87f-80a3-4c77-87de-872ef3947a4c"
-            name="answers[9046a87f-80a3-4c77-87de-872ef3947a4c]"
-            placeholder="Jane Smith"
-            required
-        />
-    </div>
-    <div>
-        <label for="08d83dc8-e75e-4714-99c6-74d76d2f9181">What's your email?</label>
-        <input 
-            type="email"
-            id="08d83dc8-e75e-4714-99c6-74d76d2f9181"
-            name="answers[08d83dc8-e75e-4714-99c6-74d76d2f9181]"
-            placeholder="jane@example.com"
-            required
-        />
-    </div>
-    <div>
-        <label for="06f51ff5-6d33-4c44-ae14-5d984c4bdbcb">Subject</label>
-        <input 
-            type="text"
-            id="06f51ff5-6d33-4c44-ae14-5d984c4bdbcb"
-            name="answers[06f51ff5-6d33-4c44-ae14-5d984c4bdbcb]"
-            required
-        />
-    </div>
-    <div>
-        <label for="d27d35b4-b314-4b7a-835c-2ad6b7e08f31">Message</label>
-        <textarea 
-            id="d27d35b4-b314-4b7a-835c-2ad6b7e08f31"
-            name="answers[d27d35b4-b314-4b7a-835c-2ad6b7e08f31]"
-            required
-        ></textarea>
-    </div>
-    <button type="submit">Submit</button>
-</form>
+<script>window.Reform=window.Reform||function(){(Reform.q=Reform.q||[]).push(arguments)};</script>
+<script id="reform-script" async src="https://embed.reform.app/v1/embed.js"></script>
+<script>
+    Reform('init', {
+        url: 'https://forms.reform.app/nes/untitled-form-3/1vg59b',
+        target: '#my-reform',
+        background: 'default',
+    })
+</script>
