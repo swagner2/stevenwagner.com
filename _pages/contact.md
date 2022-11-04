@@ -1,8 +1,11 @@
 ---
+title: Contact Steven Wagner
 layout: default
 permalink: /contact/
-title: Contact Steven Wagner
+published: true
 ---
+
+
 
 
 <form method="POST" action="https://forms.reform.app/headless/nes/untitled-form-3/1vg59b/submissions">
