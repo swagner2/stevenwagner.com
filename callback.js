@@ -10,7 +10,7 @@ const Klaviyo = require('klaviyo');
 const gumroad = new Gumroad({
     client_id: 'brYzIqvfEGO9rJgvvFErxrAa6WX0jmhBG7GtYbYWrVU',
     client_secret: 'fEFjETDWKFeEX3oIiNwp12Dc4AA_DZAcTzO2n5ZhvTw',
-    redirect_uri: 'http://example.com/callback'
+    redirect_uri: 'http://stevenwagner.com/callback'
 });
 
 //Klaviyo API
